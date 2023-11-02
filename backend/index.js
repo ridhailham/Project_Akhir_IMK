@@ -28,9 +28,9 @@ const User = require('./models/UserModel.js')
  
 function initial() {
     User.create({
-        name: "admin brawijaya tournament",
-        email: "",
-        password: bcrypt.hashSync('', 8),
+        name: "admin imk",
+        email: "adminimk@gmail.com",
+        password: bcrypt.hashSync('123', 8),
         lomba: "admin",
         tim: "admin",
         role: 'admin',
