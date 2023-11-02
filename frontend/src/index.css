@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Open+Sans&display=swap");
+@font-face {
+  font-family: "AT Arges";
+  src: url("$fonts/AT-Arges.otf") format("opentype");
+  font-weight: normal;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  max-width: 1920px;
+  @apply mx-auto w-screen py-20 px-6 md:px-20;
+}
+
+.button-shadow {
+  box-shadow: 0px 4px 22px 0px rgba(0, 0, 0, 0.25);
+}
+
+.button-text {
+  text-align: center;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 900;
+}
+
+.navmenu-text {
+  font-family: AT Arges;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.5px;
+}
+
+.font-arges {
+  font-family: "AT Arges", sans-serif;
+}
+
+.text-stroke {
+  -webkit-text-stroke-width: 1px; /* Width of the stroke */
+  -webkit-text-stroke-color: white; /* Color of the stroke */
+  @apply text-transparent;
+}
+
+.text-stroke:hover {
+  -webkit-text-stroke-width: 0px; /* Width of the stroke */
+  -webkit-text-stroke-color: white;
+  @apply text-cust-yellow;
+}
+
+.text-stroke-inactive {
+  -webkit-text-stroke-width: 0px; /* Width of the stroke */
+  -webkit-text-stroke-color: white;
+  @apply text-white;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+.centered-div {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
