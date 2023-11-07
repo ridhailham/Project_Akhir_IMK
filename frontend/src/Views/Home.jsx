@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <>
       <Landing />
-      <Parallax translateY={[50, -150]} className="h-screen">
+      <Parallax translateY={[20, -150]} className="h-screen">
         <GetToKnow />
         <Mascot />
         <Graffiti />

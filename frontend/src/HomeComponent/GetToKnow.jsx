@@ -1,8 +1,8 @@
 const GetToKnow = () => {
   return (
     <>
-      <img src="/Gedung.png" alt="" className=" w-full" />
-      <div className="py-16 md:py-28 bg-cust-dark-green">
+      <img src="/rumput1.png" alt="" className=" h-[70%] w-[100%]" />
+      <div className="py-16 md:py-28 bg-white">
         <div className="">
           <div className="group relative mx-auto w-fit">
             <div className="absolute -ml-[14%] -mt-[2%]">
@@ -31,7 +31,7 @@ const GetToKnow = () => {
             </div>
 
             <div className="relative">
-              <h2 className=" group font-arges text-cust-yellow text-[100px] md:text-[200px] 2xl:text-[300px] duration-500">
+              <h2 className="text-center group font-arges text-cust-yellow text-[100px] md:text-[200px] 2xl:text-[140px] duration-500">
                 <style>
                   {`
                     .group:hover h2 {
@@ -47,20 +47,38 @@ const GetToKnow = () => {
                     }
                   `}
                 </style>
-                GET TO KNOW
+                WHAT IS LOCAL CULTURE FESTIVAL
               </h2>
 
               <img
-                src="./BrawijayaTournamentTxt.png"
+                src="./Culture.jpg"
                 alt=""
-                className="group-hover:mb-[4%] w-[90%] absolute bottom-0 mb-[5%] duration-500"
+                className="group-hover:m-[3%] w-[100%] bottom-0 mb-[0%] duration-500"
                 style={{
-                  left: 0,
+                 left: 0,
                   right: 0,
                   marginLeft: "auto",
                   marginRight: "auto",
                 }}
               />
+               <h2 className="text-center group font-arges text-cust-yellow text-[100px] md:text-[200px] 2xl:text-[140px] duration-500">
+                <style>
+                  {`
+                    .group:hover h2 {
+                      -webkit-text-fill-color: transparent; /* Make text transparent */
+                      -webkit-text-stroke: 4px #FFB003; /* Set the stroke color and width */
+                    }
+
+                    @media (max-width: 1280px) {
+                      .group:hover h2 { 
+                        -webkit-text-fill-color: transparent; /* Make text transparent */
+                        -webkit-text-stroke: 2px #FFB003; /* Set the stroke color and width for medium screens */
+                      }
+                    }
+                  `}
+                </style>
+                FESTIVAL
+              </h2>
             </div>
           </div>
 
