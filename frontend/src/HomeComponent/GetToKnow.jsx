@@ -31,37 +31,27 @@ const GetToKnow = () => {
             </div>
 
             <div className="relative">
-              <h2 className="text-center group font-arges text-cust-yellow text-[100px] md:text-[200px] 2xl:text-[140px] duration-500">
-                <style>
-                  {`
-                    .group:hover h2 {
-                      -webkit-text-fill-color: transparent; /* Make text transparent */
-                      -webkit-text-stroke: 4px #FFB003; /* Set the stroke color and width */
-                    }
-
-                    @media (max-width: 1280px) {
-                      .group:hover h2 { 
-                        -webkit-text-fill-color: transparent; /* Make text transparent */
-                        -webkit-text-stroke: 2px #FFB003; /* Set the stroke color and width for medium screens */
-                      }
-                    }
-                  `}
-                </style>
-                WHAT IS LOCAL CULTURE FESTIVAL
+              <div className=" flex flex-row">
+                
+              </div>
+              <h2 className="hover:mb-[3%]  ml-2 text-center group font-arges text-cust-green text-[100px] md:text-[200px] 2xl:text-[140px] duration-1000">
+               
+                WELCOME TO LOCAL
               </h2>
 
               <img
                 src="./Culture.jpg"
                 alt=""
-                className="group-hover:m-[3%] w-[100%] bottom-0 mb-[0%] duration-500"
+                className="group-hover:m-[5%] w-[100%] bottom-0 mb-[1%] duration-1000"
                 style={{
                  left: 0,
                   right: 0,
                   marginLeft: "auto",
                   marginRight: "auto",
+                  marginTop: "-25px"
                 }}
               />
-               <h2 className="text-center group font-arges text-cust-yellow text-[100px] md:text-[200px] 2xl:text-[140px] duration-500">
+               <h2 className="hover:m-[3%] text-center group font-arges text-cust-green text-[100px] md:text-[200px] 2xl:text-[140px] duration-1000">
                 <style>
                   {`
                     .group:hover h2 {
@@ -81,8 +71,11 @@ const GetToKnow = () => {
               </h2>
             </div>
           </div>
+          <br />
+          <br />
+          <br />
 
-          <p className="w-9/12 xl:w-1/2 mx-auto text-cust-yellow text-center text-sm md:text-base font-lato">
+          <p className="w-9/12 xl:w-1/2 mx-auto  text-cust-green text-center text-sm md:text-base font-lato">
             Brawijaya Tournament merupakan salah satu program kerja Kementerian
             Kebudayaan, Pemuda, dan Olahraga Eksekutif Mahasiswa Universitas
             Brawijaya 2023. Brawijaya Tournament adalah sebuah kompetisi

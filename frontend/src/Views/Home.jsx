@@ -9,6 +9,7 @@ import Footer from "./Footer";
 const Home = () => {
   return (
     <>
+      
       <Landing />
       <Parallax translateY={[20, -150]} className="h-screen">
         <GetToKnow />

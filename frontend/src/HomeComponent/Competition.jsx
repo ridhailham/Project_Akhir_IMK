@@ -8,12 +8,12 @@ import { Link } from "react-router-dom";
 const Competition = () => {
   return (
     <>
-      <div className="bg-cust-yellow py-5 font-arges">
-        <div className="mx-auto w-fit lg:text-8xl md:text-7xl text-6xl font-bold text-cust-dark-green mb-8">
+      <div className="bg-blue-800 py-5 font-arges">
+        <div className="mx-auto w-fit lg:text-8xl md:text-7xl text-6xl font-bold text-cust-light-yellow mb-8">
           COMPETITION
         </div>
         <div className="w-full md:flex md:flex-row">
-          <div className="group hover:cursor-pointer md:w-3/12 w-9/12 px-5 py-5 bg-cust-dark-green rounded-lg md:mx-5 mx-auto">
+          <div className="group hover:cursor-pointer md:w-3/12 w-9/12 px-5 py-5  bg-blue-gray-50 rounded-lg md:mx-5 mx-auto">
             <Link to="/pubg">
               <div className="overflow-hidden mb-5 relative">
                 <img
@@ -32,7 +32,7 @@ const Competition = () => {
               </div>
             </Link>
           </div>
-          <div className="group hover:cursor-pointer md:w-3/12 w-9/12 px-5 py-5 bg-cust-dark-green rounded-lg md:mr-5 mx-auto md:my-0 my-8">
+          <div className="group hover:cursor-pointer md:w-3/12 w-9/12 px-5 py-5 bg-blue-gray-50 rounded-lg md:mr-5 mx-auto md:my-0 my-8">
             <Link to="/basket">
               <div className="overflow-hidden mb-5 relative">
                 <img
@@ -52,7 +52,7 @@ const Competition = () => {
             </Link>
           </div>
 
-          <div className="group hover:cursor-pointer md:w-3/12 w-9/12 px-5 py-5 bg-cust-dark-green rounded-lg md:mx-0 mx-auto md:mb-0 mb-8">
+          <div className="group hover:cursor-pointer md:w-3/12 w-9/12 px-5 py-5 bg-blue-gray-50 rounded-lg md:mx-0 mx-auto md:mb-0 mb-8">
             <Link to="/mlbb">
               <div className="overflow-hidden mb-5 relative">
                 <img
@@ -72,7 +72,7 @@ const Competition = () => {
             </Link>
           </div>
 
-          <div className="group hover:cursor-pointer md:w-3/12 w-9/12 px-5 py-5 bg-cust-dark-green rounded-lg md:mx-5 mx-auto md:mb-0 mb-8">
+          <div className="group hover:cursor-pointer md:w-3/12 w-9/12 px-5 py-5 bg-blue-gray-50 rounded-lg md:mx-5 mx-auto md:mb-0 mb-8">
             <Link to="/silat">
               <div className="overflow-hidden mb-5 relative">
                 <img

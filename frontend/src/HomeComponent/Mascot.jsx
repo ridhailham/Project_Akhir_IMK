@@ -1,12 +1,12 @@
 import { React, useState } from "react";
-import mascot from "../assets/Mascot.png";
+import mascot from "../../public/pdi1.jpeg";
 
 const Mascot = () => {
   const [open, setOpen] = useState(false);
   return (
     <>
-      <div className="bg-cust-dark-green px-5 py-5">
-        <div className="bg-cust-green py-5 rounded-xl">
+      <div className="bg-blue-300 px-5 py-5">
+        <div className="bg-light-blue-800 py-5 rounded-xl">
           <div className="mx-auto w-fit font-arges lg:text-8xl md:text-7xl text-6xl text-cust-yellow">
             OUR MASCOT
           </div>
