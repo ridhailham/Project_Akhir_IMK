@@ -7,8 +7,8 @@ import { Link } from "react-router-dom";
 const Silat = () => {
   return (
     <>
-      <Landing name="SILAT" className="px-1 lg:px-6" />
-      <div className="min-h-screen w-full flex bg-cust-dark-green">
+      <Landing name="WAYANG KULIT" className="px-1 lg:px-6" />
+      <div className="min-h-screen w-full flex bg-light-blue-800">
         <div className="flex flex-col md:flex-row items-center justify-center px-8">
           <div className="md:w-2/12 w-4/12 lg:mt-0 mt-10 mr-10">
             <img src={silat} alt="" />
@@ -27,7 +27,7 @@ const Silat = () => {
               <CheckUser forLoggedOut>
                 <div>
                   <Link to="/register/silat">
-                    <button className=" mx-auto text-cust-yellow px-12 py-4 border-cust-yellow border-2 rounded-md font-bold md:mx-2 my-2 lg:mb-12 md:mb-2 mb-5 flex justify-center hover:bg-cust-green duration-200">
+                    <button className=" mx-auto text-cust-yellow px-12 py-4 border-cust-yellow border-2 rounded-md font-bold md:mx-2 my-2 lg:mb-12 md:mb-2 mb-5 flex justify-center hover:bg-white duration-200">
                       Daftar
                     </button>
                   </Link>
@@ -37,7 +37,7 @@ const Silat = () => {
                     to="https://drive.google.com/file/d/1c0u5-17A8P7XofxqdbXYnFDaHAg3n0dZ/view?usp=drivesdk"
                     target="https://drive.google.com/file/d/1c0u5-17A8P7XofxqdbXYnFDaHAg3n0dZ/view?usp=drivesdk"
                   >
-                    <button className="mx-auto text-cust-yellow px-12 py-4 border-cust-yellow border-2 rounded-md font-bold md:mx-2 my-2 lg:mb-12 md:mb-2 mb-5 flex justify-center hover:bg-cust-green duration-200">
+                    <button className="mx-auto text-cust-yellow px-12 py-4 border-cust-yellow border-2 rounded-md font-bold md:mx-2 my-2 lg:mb-12 md:mb-2 mb-5 flex justify-center hover:bg-white duration-200">
                       Formulir
                     </button>
                   </Link>
@@ -48,7 +48,7 @@ const Silat = () => {
                   to="https://wa.me/6287782460603"
                   target="https://wa.me/6287782460603"
                 >
-                  <button className="mx-auto text-cust-yellow border-cust-yellow border-2 rounded-md font-bold lg:mx-2 my-2 mb-12 md:mx-2 md:mb-2 flex justify-center hover:bg-cust-green duration-200">
+                  <button className="mx-auto text-cust-yellow border-cust-yellow border-2 rounded-md font-bold lg:mx-2 my-2 mb-12 md:mx-2 md:mb-2 flex justify-center hover:bg-white duration-200">
                     <img src="Call.png" alt="" className="w-10/12 my-auto" />
                   </button>
                 </Link>
@@ -57,10 +57,14 @@ const Silat = () => {
           </div>
         </div>
       </div>
-      <div className="bg-cust-yellow font-poppins px-5 py-5">
+      <div className="bg-light-blue-600 font-poppins px-5 py-5">
         <div
           className="h-[90vh] w-full rounded-xl"
-          style={{ backgroundImage: `url(${background})` }}
+          style={{
+            backgroundImage: "url(./NavMenu.svg)",
+            backgroundSize: "100vh",
+            backgroundColor: "#055C9D",
+          }}
         >
           <div className="mx-auto flex justify-center pt-20 pb-52">
             <img src="./Timeline.svg" alt="" className="sm:w-2/12 w-4/12" />
@@ -96,11 +100,11 @@ const Silat = () => {
           </div>
         </div>
       </div>
-      <div className="overflow-hidden h-full w-full bg-cust-yellow">
+      <div className="overflow-hidden h-full w-full bg-light-blue-900">
         <div className="pb-10">
           <div className="flex flex-row gap-4 justify-center items-center">
             <div className="group flex items-center justify-center relative">
-              <div className="text-cust-blue lg:text-8xl sm:text-6xl text-6xl font-arges font-semibold py-10 text-cust-dark-green">
+              <div className="text-cust-blue lg:text-8xl sm:text-6xl text-6xl font-arges font-semibold py-10 text-cust-yellow">
                 BOOKLET
               </div>
             </div>

@@ -5,9 +5,9 @@ const Footer = () => {
 
   return (
     <>
-      <div className="bg-cust-light-yellow px-3">
+      <div className=" px-3">
         <br />
-        <div className="p-2.5 pt-6 rounded-[20px_20px_0_0] bg-blue-900 mx-2 mb-0">
+        <div className="p-2.5 pt-6 rounded-[20px_20px_0_0] bg-blue-800 mx-2 mb-0">
           <div className="flex justify-between items-center px-12 md:flex-row flex-col md:w-fit mx-auto">
             <div className="flex md:flex-col items-center md:w-1/5 w-1/2 justify-center mb-5">
               <img src="./BTLogo.svg" alt="" className="w-6/12" />
@@ -41,7 +41,7 @@ const Footer = () => {
               </div>
             </div>
             <div className="flex md:flex-col flex-row md:w-1/5 justify-center">
-              <p
+              {/* <p
                 onClick={() => navigate("/")}
                 className="text-cust-yellow m-2 hover:text-white sm:text-[15px] text-[70%] font-bold cursor-pointer"
               >
@@ -64,7 +64,7 @@ const Footer = () => {
                 className="text-cust-yellow m-2 hover:text-white sm:text-[15px] text-[70%] font-bold cursor-pointer"
               >
                 SILAT
-              </p>
+              </p> */}
             </div>
           </div>
           <div className="text-center">

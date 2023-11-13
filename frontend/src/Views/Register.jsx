@@ -25,16 +25,15 @@ const Register = () => {
     setMsg("Tunggu sebentar.");
 
     fetch(
-      `https://admin2.brawijayatournament.com/${
-        lomba == "mlbb"
-          ? "mobilelegend"
-          : lomba == "basket"
+      `https://admin2.brawijayatournament.com/${lomba == "mlbb"
+        ? "mobilelegend"
+        : lomba == "basket"
           ? "basket"
           : lomba == "silat"
-          ? "silat"
-          : lomba == "pubg"
-          ? "pubg"
-          : ""
+            ? "silat"
+            : lomba == "pubg"
+              ? "pubg"
+              : ""
       }/register`,
       {
         method: "POST",
@@ -80,10 +79,14 @@ const Register = () => {
   return (
     <>
       <CheckUser forLoggedOut red>
-        <div className="w-full lg:flex p-10">
+        <div className="w-full lg:flex p-10 bg-gray-300">
           <div
             className="lg:w-6/12 w-full flex justify-items-center justify-center rounded-xl"
-            style={{ backgroundImage: `url(${background})` }}
+            style={{
+              backgroundImage: "url(../NavMenu.svg)",
+              backgroundSize: "100vh",
+              backgroundColor: "#055C9D",
+            }}
           >
             <div className="text-left mx-auto lg:text-5xl text-3xl w-9/12 text-cust-yellow font-bold h-fit my-auto lg:py-0 py-10">
               Pendaftaran Akun Kompetisi {lomba.toUpperCase()}
@@ -131,16 +134,14 @@ const Register = () => {
                 onChange={(e) => setConfPassowrd(e.target.value)}
               />
               <div
-                className={`${
-                  lomba == "silat" ? "hidden" : ""
-                } text-cust-blue font-semibold text-md lg:text-sm text-left mb-1 mx-5 lg:ml-16 mt-5`}
+                className={`${lomba == "silat" ? "hidden" : ""
+                  } text-cust-blue font-semibold text-md lg:text-sm text-left mb-1 mx-5 lg:ml-16 mt-5`}
               >
                 Nama Tim
               </div>
               <input
-                className={`${
-                  lomba == "silat" ? "hidden" : ""
-                } border-cust-dark-green rounded-xl border-2 bg-transparent px-3 py-2 w-11/12 lg:w-9/12 ml-0 sm:ml-3 lg:ml-12 mr-0 sm:mr-4 lg:mr-0 self-center sm:self-start`}
+                className={`${lomba == "silat" ? "hidden" : ""
+                  } border-cust-dark-green rounded-xl border-2 bg-transparent px-3 py-2 w-11/12 lg:w-9/12 ml-0 sm:ml-3 lg:ml-12 mr-0 sm:mr-4 lg:mr-0 self-center sm:self-start`}
                 placeholder="Tim Juara"
                 name="tim"
                 type="text"
@@ -200,9 +201,8 @@ const Register = () => {
               </button>
               <div className="flex flex-col space-y-4 md:space-y-0 pt-4 md:pt-2 md:flex-row items-center justify-between sm:ml-3 lg:ml-12 lg:w-9/12">
                 <span
-                  className={`${
-                    loading && "animate-pulse"
-                  } text-sm text-gray-700 font-normal`}
+                  className={`${loading && "animate-pulse"
+                    } text-sm text-gray-700 font-normal`}
                 >
                   {msg}
                 </span>

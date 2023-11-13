@@ -11,7 +11,7 @@ const NavbarMenu = ({ resetState }) => {
       style={{
         backgroundImage: "url(./NavMenu.svg)",
         backgroundSize: "100vh",
-        backgroundColor: "#015557",
+        backgroundColor: "#055C9D",
       }}
     >
       <Link to={"/"} onClick={resetState}>
@@ -84,19 +84,19 @@ const navlist = [
   //   path: "/",
   // },
   {
-    title: "BASKET",
+    title: "MUSIK",
     path: "/basket",
   },
   {
-    title: "MLBB",
+    title: "TARI",
     path: "/mlbb",
   },
   {
-    title: "PUBG",
+    title: "TEATER",
     path: "/pubg",
   },
   {
-    title: "SILAT",
+    title: "WAYANG KULIT",
     path: "/silat",
   },
 

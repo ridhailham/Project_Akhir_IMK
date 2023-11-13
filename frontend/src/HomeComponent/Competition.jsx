@@ -28,7 +28,7 @@ const Competition = () => {
                 </div>
               </div>
               <div className="w-fit text-9xl md:text-8xl lg:text-9xl xl:text-10xl text-cust-yellow mx-auto font-bold mb-5 group-hover:text-cust-red duration-300">
-                PUBG
+                TEATER
               </div>
             </Link>
           </div>
@@ -47,7 +47,7 @@ const Competition = () => {
                 </div>
               </div>
               <div className="w-fit text-9xl md:text-8xl lg:text-9xl xl:text-10xl text-cust-yellow mx-auto font-bold mb-5 group-hover:text-cust-red duration-300">
-                BASKET
+                MUSIK
               </div>
             </Link>
           </div>
@@ -67,7 +67,7 @@ const Competition = () => {
                 </div>
               </div>
               <div className="w-fit text-9xl md:text-8xl lg:text-9xl xl:text-10xl text-cust-yellow mx-auto font-bold mb-5 group-hover:text-cust-red duration-300">
-                MLBB
+                TARI
               </div>
             </Link>
           </div>
@@ -86,8 +86,8 @@ const Competition = () => {
                   </div>
                 </div>
               </div>
-              <div className="w-fit text-9xl md:text-8xl lg:text-9xl xl:text-10xl text-cust-yellow mx-auto font-bold mb-5 group-hover:text-cust-red duration-300">
-                SILAT
+              <div className="w-fit text-9xl text-center md:text-8xl lg:text-9xl xl:text-10xl text-cust-yellow mx-auto font-bold mb-5 group-hover:text-cust-red duration-300">
+                WAYANG KULIT
               </div>
             </Link>
           </div>

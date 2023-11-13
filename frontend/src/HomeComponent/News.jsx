@@ -24,7 +24,7 @@ const News = () => {
 
   return (
     <>
-      <div className=" bg-blue-900  00 py-5 min-h-screen">
+      <div className=" bg-blue-800  00 py-5 min-h-screen">
         <div className="mx-auto w-fit lg:text-8xl md:text-7xl text-6xl font-bold text-cust-light-yellow mb-0 mt-5 font-arges">
           NEWS
         </div>
@@ -71,7 +71,7 @@ const News = () => {
         <div className="mt-12 flex justify-center md:mb-0 mb-10">
           <a href="https://www.instagram.com/brawijayatournament/">
             <div>
-              <button className="group relative overflow-hidden w-full px-5 py-2 flex lg:py-2 lg:px-4 font-semibold text-xl lg:text-2xl border-cust-dark-green text-cust-dark-green border-2 rounded-lg hover:bg-cust-dark-green hover:text-white transition-all duration-250">
+              <button className="group relative overflow-hidden w-full px-5 py-2 flex lg:py-2 lg:px-4 font-semibold text-xl lg:text-2xl border-cust-yellow text-cust-yellow border-2 rounded-lg hover:bg-red-600 hover:text-white transition-all duration-250">
                 <p className="pr-4 pl-3 ">Lihat Berita Lainnya</p>
               </button>
             </div>

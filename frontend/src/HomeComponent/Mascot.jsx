@@ -1,18 +1,18 @@
 import { React, useState } from "react";
-import mascot from "../../public/pdi1.jpeg";
+import mascot from "../../public/asian-5.png";
 
 const Mascot = () => {
   const [open, setOpen] = useState(false);
   return (
     <>
-      <div className="bg-blue-300 px-5 py-5">
-        <div className="bg-light-blue-800 py-5 rounded-xl">
-          <div className="mx-auto w-fit font-arges lg:text-8xl md:text-7xl text-6xl text-cust-yellow">
+      <div className="bg-light-blue-600 px-5 py-5">
+        <div className=" bg-light-blue-800 py-5 rounded-xl">
+          <div className="mx-auto w-fit font-arges lg:text-8xl md:text-7xl text-6xl text-cust-light-yellow">
             OUR MASCOT
           </div>
           <div className="mx-auto w-fit lg:text-2xl text-xl font-poppins text-cust-yellow md:block hidden">
             Click for more!
-          </div>
+          </div>x
           <div className="w-full md:h-full mt-10 mb-14">
             <div
               onClick={() => {

@@ -6,8 +6,8 @@ import { Link } from "react-router-dom";
 const Basket = () => {
   return (
     <>
-      <Landing name="Basket" />
-      <div className="min-h-screen w-full flex bg-cust-dark-green">
+      <Landing name="Musik" />
+      <div className="min-h-screen w-full flex bg-light-blue-800">
         <div className="flex flex-col md:flex-row items-center justify-center px-8">
           <div className="md:w-4/12 w-7/12">
             <img src="./MaskotBasket.svg" alt="" />
@@ -28,7 +28,7 @@ const Basket = () => {
               <CheckUser forLoggedOut>
                 <div>
                   <Link to="/register/basket">
-                    <button className="mx-auto text-cust-yellow px-12 py-4 border-cust-yellow border-2 rounded-md font-bold md:mx-2 my-2 mb-12 md:mb-2 flex justify-center hover:bg-cust-green duration-200">
+                    <button className="mx-auto text-cust-yellow px-12 py-4 border-cust-yellow border-2 rounded-md font-bold md:mx-2 my-2 mb-12 md:mb-2 flex justify-center hover:bg-white duration-200">
                       Daftar
                     </button>
                   </Link>
@@ -38,7 +38,7 @@ const Basket = () => {
                     to="https://drive.google.com/file/d/1iX8I8974NEJxiSiGYUDFEOE4xgpF9S8x/view?usp=drivesdk"
                     target="https://drive.google.com/file/d/1iX8I8974NEJxiSiGYUDFEOE4xgpF9S8x/view?usp=drivesdk"
                   >
-                    <button className="mx-auto text-cust-yellow px-12 py-4 border-cust-yellow border-2 rounded-md font-bold md:mx-2 my-2 mb-12 md:mb-2 flex justify-center hover:bg-cust-green duration-200">
+                    <button className="mx-auto text-cust-yellow px-12 py-4 border-cust-yellow border-2 rounded-md font-bold md:mx-2 my-2 mb-12 md:mb-2 flex justify-center hover:bg-white duration-200">
                       Formulir
                     </button>
                   </Link>
@@ -49,7 +49,7 @@ const Basket = () => {
                   to="https://wa.me/6287782460603"
                   target="https://wa.me/6287782460603"
                 >
-                  <button className="mx-auto text-cust-yellow border-cust-yellow border-2 rounded-md font-bold md:mx-2 my-2 mb-12 md:mb-2 flex justify-center hover:bg-cust-green duration-200">
+                  <button className="mx-auto text-cust-yellow border-cust-yellow border-2 rounded-md font-bold md:mx-2 my-2 mb-12 md:mb-2 flex justify-center hover:bg-white duration-200">
                     <img src="Call.png" alt="" className="w-10/12 my-auto" />
                   </button>
                 </Link>
@@ -58,10 +58,14 @@ const Basket = () => {
           </div>
         </div>
       </div>
-      <div className="bg-cust-yellow font-poppins px-5 py-5">
+      <div className="bg-light-blue-600 font-poppins px-5 py-5">
         <div
           className="h-[90vh] w-full rounded-xl"
-          style={{ backgroundImage: `url(${background})` }}
+          style={{
+            backgroundImage: "url(./NavMenu.svg)",
+            backgroundSize: "100vh",
+            backgroundColor: "#055C9D",
+          }}
         >
           <div className="mx-auto flex justify-center pt-20 pb-52">
             <img src="./Timeline.svg" alt="" className="sm:w-2/12 w-4/12" />
@@ -89,11 +93,11 @@ const Basket = () => {
           </div>
         </div>
       </div>
-      <div className="overflow-hidden h-full w-full bg-cust-yellow">
+      <div className="overflow-hidden h-full w-full bg-light-blue-900">
         <div className="pb-10">
           <div className="flex flex-row gap-4 justify-center items-center">
             <div className="group flex items-center justify-center relative">
-              <div className="text-cust-blue lg:text-8xl sm:text-6xl text-6xl font-arges font-semibold py-10 text-cust-dark-green">
+              <div className="text-cust-blue lg:text-8xl sm:text-6xl text-6xl font-arges font-semibold py-10 text-cust-yellow">
                 BOOKLET
               </div>
             </div>

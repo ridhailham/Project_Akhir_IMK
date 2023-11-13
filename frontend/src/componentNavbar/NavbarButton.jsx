@@ -3,7 +3,7 @@
 const NavbarButton = ({ active, setActive }) => {
   return (
     <button
-      className="flex button-shadow bg-cust-dark-green hover:bg-cust-green w-[50px] h-[50px] md:w-[60px] md:h-[60px] p-3 rounded-xl justify-center items-center duration-300"
+      className="flex button-shadow bg-blue-900 hover:bg-blue-800 w-[50px] h-[50px] md:w-[60px] md:h-[60px] p-3 rounded-xl justify-center items-center duration-300"
       onClick={() => setActive(!active)}
       aria-label="navbar-button"
     >
