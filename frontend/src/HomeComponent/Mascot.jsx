@@ -32,17 +32,15 @@ const Mascot = () => {
               <div
                 className={`${
                   open ? "md:opacity-100 md:translate-x-4" : "md:opacity-0"
-                } lg:w-7/12 md:w-8/12 md:mt-0 mt-10 mx-auto my-auto duration-200 md:absolute xl:top-24 lg:top-20 md:top-10 xl:-right-6 lg:-right-7 md:-right-12 text-white xl:text-base lg:text-sm md:text-xs text-xs text-justify font-lato`}
+                } lg:w-7/12 md:w-8/12 md:mt-0 mt-10 mx-auto my-auto duration-200 md:absolute xl:top-10 lg:top-20 md:top-10 xl:-right-6 lg:-right-7 md:-right-12 text-white xl:text-base lg:text-sm md:text-xs text-xs text-justify font-lato`}
               >
-                Bravixis merupakan maskot dari Brawijaya Tournament 2023. Singa
-                yang melambangkan ciri khas kota malang sekaligus simbol
-                keberanian, kekuatan, dan ketegasan. Bernama Bravixis yang
-                berasal dari kata ‘vixis’ diambil dari bahasa latin ‘virtus’
-                yang berarti keberanian. Dengan hadirnya Bravixis harapannya
-                Brawijaya Tournament dapat mencetak insan yang berani dan yakin
-                dengan kekuatannya untuk berkompetisi dan lebih meningkatkan
-                kepercayaan diri. Bravixis akan menjadi maskot yang mewakili
-                semangat olahraga dan keberanian yang luar biasa.
+                The Golden Cendrawasih adalah maskot Indonesia Local Culture Fest 2023. Burung
+                yang melambangkan kemuliaan bumi pertiwi sekaligus simbol
+                keberanian, kekuatan, dan ketegasan. Dengan hadirnya The Golden Cendrawasih harapannya
+                Indonesia Local Culture Fest 2023 dapat mencetak insan yang berani dan yakin
+                dengan kekuatannya untuk berkolaborasi dan meningkatkan
+                rasa cinta tanah air. The Golden Cendrawasih akan menjadi maskot yang mewakili
+                semangat perjuangan dan keberanian yang luar biasa.
               </div>
             </div>
           </div>

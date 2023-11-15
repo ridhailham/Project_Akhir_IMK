@@ -1,7 +1,7 @@
 const GetToKnow = () => {
   return (
     <>
-      <img src="/rumput1.png" alt="" className=" h-[50%] w-[100%]" />
+      <img src="/rumput1.png" alt="" className=" h-[40%] w-[100%]" />
       <div
         className="h-[120%] w-full"
         style={{
@@ -14,7 +14,7 @@ const GetToKnow = () => {
         
         <br />
         <br />
-        <div className="">
+        <div className="mb-10">
           <div className="group relative mx-auto w-fit">
             <div className="absolute -ml-[14%] -mt-[2%]">
               <img
@@ -45,23 +45,24 @@ const GetToKnow = () => {
               <div className=" flex flex-row">
 
               </div>
-              <h2 className="hover:mb-[4%]  ml-2 text-center group font-arges text-cust-light-yellow text-[100px] md:text-[200px] 2xl:text-[140px] duration-1000">
+              <h2 className="hover:mb-[3%]  ml-2 text-center group font-arges text-white text-[100px] md:text-[200px] 2xl:text-[140px] duration-1000">
 
-                WELCOME TO LOCAL
+                WELCOME TO 
               </h2>
               <br />
               <br />
 
               <img
-                src="./Culture.jpg"
+                src="./Group2.png"
                 alt=""
-                className="w-[100%] bottom-0 mb-[1%] duration-1000"
+                className="w-[100%] bottom-0  duration-1000"
                 style={{
                   left: 0,
                   right: 0,
                   marginLeft: "auto",
                   marginRight: "auto",
-                  marginTop: "-25px"
+                  marginTop: "-25px",
+                  
                 }}
               />
               <h2 className="hover:m-[5%] text-center group font-arges text-cust-light-yellow text-[100px] md:text-[200px] 2xl:text-[140px] duration-1000">
@@ -80,7 +81,7 @@ const GetToKnow = () => {
                     }
                   `}
                 </style>
-                FESTIVAL
+                {/* FESTIVAL */}
               </h2>
             </div>
           </div>

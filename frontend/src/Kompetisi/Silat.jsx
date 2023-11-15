@@ -1,6 +1,6 @@
 import background from "../assets/BGMerah.svg";
 import Landing from "../KompetisiComponent/Landing";
-import silat from "../assets/silats.png";
+import maskotWayang from "../assets/MaskotWayang.png";
 import { CheckUser } from "../api/sessionHelper";
 import { Link } from "react-router-dom";
 
@@ -11,7 +11,7 @@ const Silat = () => {
       <div className="min-h-screen w-full flex bg-light-blue-800">
         <div className="flex flex-col md:flex-row items-center justify-center px-8">
           <div className="md:w-2/12 w-4/12 lg:mt-0 mt-10 mr-10">
-            <img src={silat} alt="" />
+            <img src={maskotWayang} alt="" />
           </div>
           <div className="w-full md:w-6/12">
             <div className="text-cust-yellow md:text-justify text-center font-medium font-lato">
@@ -28,19 +28,19 @@ const Silat = () => {
                 <div>
                   <Link to="/register/silat">
                     <button className=" mx-auto text-cust-yellow px-12 py-4 border-cust-yellow border-2 rounded-md font-bold md:mx-2 my-2 lg:mb-12 md:mb-2 mb-5 flex justify-center hover:bg-white duration-200">
-                      Daftar
+                      BELI TIKET
                     </button>
                   </Link>
                 </div>
                 <div>
-                  <Link
+                  {/* <Link
                     to="https://drive.google.com/file/d/1c0u5-17A8P7XofxqdbXYnFDaHAg3n0dZ/view?usp=drivesdk"
                     target="https://drive.google.com/file/d/1c0u5-17A8P7XofxqdbXYnFDaHAg3n0dZ/view?usp=drivesdk"
                   >
                     <button className="mx-auto text-cust-yellow px-12 py-4 border-cust-yellow border-2 rounded-md font-bold md:mx-2 my-2 lg:mb-12 md:mb-2 mb-5 flex justify-center hover:bg-white duration-200">
-                      Formulir
+                      SURAT PERSETUJUAN
                     </button>
-                  </Link>
+                  </Link> */}
                 </div>
               </CheckUser>
               <div>
@@ -105,14 +105,14 @@ const Silat = () => {
           <div className="flex flex-row gap-4 justify-center items-center">
             <div className="group flex items-center justify-center relative">
               <div className="text-cust-blue lg:text-8xl sm:text-6xl text-6xl font-arges font-semibold py-10 text-cust-yellow">
-                BOOKLET
+                MAGAZINE
               </div>
             </div>
           </div>
           <div className="group flex items-center justify-center relative">
             <iframe
               className="fp-iframe mx-auto w-8/12 h-[560px] mb-10"
-              src="https://heyzine.com/flip-book/7bc16a0d79.html"
+              src="https://heyzine.com/flip-book/797bfee655.html"
               loading="lazy"
               allowFullScreen={true}
             />

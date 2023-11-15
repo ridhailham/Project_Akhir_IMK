@@ -17,7 +17,7 @@ const Footer = () => {
               <img src="./FooterText.png" alt="" />
               <div className="flex my-5">
                 <a
-                  href="https://www.instagram.com/brawijayatournament/"
+                  href="https://www.instagram.com/tedxuniversitasbrawijaya/"
                   target="_blank"
                   className="mx-4 hover:scale-110 duration-300"
                 >
@@ -28,7 +28,7 @@ const Footer = () => {
                   />
                 </a>
                 <a
-                  href="https://www.tiktok.com/@brawijayatournament"
+                  href="https://www.tiktok.com/@tedxuniversitasbrawijaya"
                   target="_blank"
                   className="mx-4 hover:scale-110 duration-300"
                 >
@@ -69,7 +69,7 @@ const Footer = () => {
           </div>
           <div className="text-center">
             <p className="text-cust-yellow mb-3 sm:text-[15px] text-[70%]">
-              © 2023 <b>Brawijaya Tournament</b>. All rights reserved.
+              © 2023 <b>Indonesia Culture Exhibition 2023</b>. All rights reserved.
             </p>
           </div>
         </div>

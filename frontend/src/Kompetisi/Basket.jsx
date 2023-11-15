@@ -2,6 +2,7 @@ import Landing from "../KompetisiComponent/Landing";
 import background from "../assets/BGMerah.svg";
 import { CheckUser } from "../api/sessionHelper";
 import { Link } from "react-router-dom";
+import maskotMusik from "../assets/maskotMusik.png"
 
 const Basket = () => {
   return (
@@ -29,19 +30,19 @@ const Basket = () => {
                 <div>
                   <Link to="/register/basket">
                     <button className="mx-auto text-cust-yellow px-12 py-4 border-cust-yellow border-2 rounded-md font-bold md:mx-2 my-2 mb-12 md:mb-2 flex justify-center hover:bg-white duration-200">
-                      Daftar
+                      BELI TIKET
                     </button>
                   </Link>
                 </div>
                 <div>
-                  <Link
+                  {/* <Link
                     to="https://drive.google.com/file/d/1iX8I8974NEJxiSiGYUDFEOE4xgpF9S8x/view?usp=drivesdk"
                     target="https://drive.google.com/file/d/1iX8I8974NEJxiSiGYUDFEOE4xgpF9S8x/view?usp=drivesdk"
                   >
                     <button className="mx-auto text-cust-yellow px-12 py-4 border-cust-yellow border-2 rounded-md font-bold md:mx-2 my-2 mb-12 md:mb-2 flex justify-center hover:bg-white duration-200">
-                      Formulir
+                      SURAT PERSETUJUAN
                     </button>
-                  </Link>
+                  </Link> */}
                 </div>
               </CheckUser>
               <div>
@@ -98,14 +99,14 @@ const Basket = () => {
           <div className="flex flex-row gap-4 justify-center items-center">
             <div className="group flex items-center justify-center relative">
               <div className="text-cust-blue lg:text-8xl sm:text-6xl text-6xl font-arges font-semibold py-10 text-cust-yellow">
-                BOOKLET
+                MAGAZINE
               </div>
             </div>
           </div>
           <div className="group flex items-center justify-center relative">
             <iframe
               className="fp-iframe mx-auto w-8/12 h-[560px] mb-10"
-              src="https://heyzine.com/flip-book/a7c5c12345.html"
+              src="https://heyzine.com/flip-book/0f6b7c4aaa.html"
               loading="lazy"
               allowFullScreen={true}
             />
