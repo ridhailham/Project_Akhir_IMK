@@ -1,5 +1,5 @@
 import { Parallax } from "react-scroll-parallax";
-import videoBg from "../assets/videoBg.mp4"
+import videoBg from "../assets/videoBg1.mp4"
 
 const Landing = () => {
   return (
