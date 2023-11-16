@@ -3,7 +3,7 @@ const GetToKnow = () => {
     <>
       <img src="/rumput1.png" alt="" className=" h-[40%] w-[100%]" />
       <div
-        className="h-[120%] w-full"
+        className="h-[120%] w-full md:h-[100%] "
         style={{
           backgroundImage: "url(./NavMenu.svg)",
           // backgroundSize: "100vh",
@@ -11,7 +11,7 @@ const GetToKnow = () => {
         }}
       >
         <br />
-        
+
         <br />
         <br />
         <div className="mb-10">
@@ -45,26 +45,29 @@ const GetToKnow = () => {
               <div className=" flex flex-row">
 
               </div>
-              <h2 className="hover:mb-[3%]  ml-2 text-center group font-arges text-white text-[100px] md:text-[200px] 2xl:text-[140px] duration-1000">
+              <h2 className="hover:mb-[3%] ml-2 text-center group font-arges text-cust-light-yellow text-[80px] md:text-[150px] 2xl:text-[100px] duration-1000">
 
-                WELCOME TO 
+                WONDERFUL
               </h2>
               <br />
               <br />
 
               <img
-                src="./Group2.png"
+                src="./Group3.png"
                 alt=""
-                className="w-[100%] bottom-0  duration-1000"
+                className="w-[80%] bottom-0  duration-1000"
                 style={{
                   left: 0,
                   right: 0,
                   marginLeft: "auto",
                   marginRight: "auto",
-                  marginTop: "-25px",
-                  
+                  marginTop: "-15px",
+
                 }}
               />
+              <h2 className="hover:mb-[3%]  ml-2 text-center group font-arges text-cust-light-yellow text-[80px] md:text-[150px] 2xl:text-[100px] duration-1000">
+                INDONESIA
+              </h2>
               <h2 className="hover:m-[5%] text-center group font-arges text-cust-light-yellow text-[100px] md:text-[200px] 2xl:text-[140px] duration-1000">
                 <style>
                   {`

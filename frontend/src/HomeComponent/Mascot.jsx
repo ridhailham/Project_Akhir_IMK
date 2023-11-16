@@ -12,7 +12,7 @@ const Mascot = () => {
           </div>
           <div className="mx-auto w-fit lg:text-2xl text-xl font-poppins text-cust-yellow md:block hidden">
             Click for more!
-          </div>x
+          </div>
           <div className="w-full md:h-full mt-10 mb-14">
             <div
               onClick={() => {

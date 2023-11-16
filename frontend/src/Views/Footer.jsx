@@ -10,8 +10,7 @@ const Footer = () => {
         <div className="p-2.5 pt-6 rounded-[20px_20px_0_0] bg-blue-800 mx-2 mb-0">
           <div className="flex justify-between items-center px-12 md:flex-row flex-col md:w-fit mx-auto">
             <div className="flex md:flex-col items-center md:w-1/5 w-1/2 justify-center mb-5">
-              <img src="./BTLogo.svg" alt="" className="w-6/12" />
-              <img src="./Budpora.svg" alt="" />
+              <img src="./asian-5.png" alt="" className="w-6/12 pt-2" />
             </div>
             <div className="flex flex-col items-center md:w-[35%] w-[85%] md:mb-8">
               <img src="./FooterText.png" alt="" />
@@ -41,6 +40,8 @@ const Footer = () => {
               </div>
             </div>
             <div className="flex md:flex-col flex-row md:w-1/5 justify-center">
+            <img src="./Group3.png" alt="" />
+            
               {/* <p
                 onClick={() => navigate("/")}
                 className="text-cust-yellow m-2 hover:text-white sm:text-[15px] text-[70%] font-bold cursor-pointer"

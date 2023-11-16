@@ -9,7 +9,7 @@ const Competition = () => {
   return (
     <>
       <div className="bg-blue-800 py-5 font-arges">
-        <div className="mx-auto w-fit lg:text-8xl md:text-7xl text-7xl font-bold text-cust-light-yellow mb-8">
+        <div className=" text-center mx-auto w-fit lg:text-8xl md:text-7xl text-7xl font-bold text-cust-light-yellow mb-8">
           BELI TIKET PERTUNJUKKAN
         </div>
         <div className="w-full md:flex md:flex-row">

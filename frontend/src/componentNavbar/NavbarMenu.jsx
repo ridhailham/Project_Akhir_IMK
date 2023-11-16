@@ -16,7 +16,7 @@ const NavbarMenu = ({ resetState }) => {
     >
       <Link to={"/"} onClick={resetState}>
         <img
-          src="./BTLogo.svg"
+          src="./asian-5.png"
           alt=""
           className="absolute w-[40px] lg:w-[70px] left-[5vw] top-[3vw] z-50"
         />

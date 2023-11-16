@@ -8,7 +8,7 @@ const HomeButton = () => {
       to="/"
       className="fixed z-20 left-[5vw] top-[3vw] flex items-center font-arges text-5xl text-black"
     >
-      <img src="./BTLogo.svg" alt="" className="lg:w-4/12 w-2/12" />
+      <img src="./asian-5.png" alt="" className="lg:w-2/12 w-2/12" />
     </Link>
   );
 };

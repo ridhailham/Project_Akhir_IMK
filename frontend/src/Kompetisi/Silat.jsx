@@ -48,7 +48,7 @@ const Silat = () => {
                   to="https://wa.me/6287782460603"
                   target="https://wa.me/6287782460603"
                 >
-                  <button className="mx-auto text-cust-yellow border-cust-yellow border-2 rounded-md font-bold lg:mx-2 my-2 mb-12 md:mx-2 md:mb-2 flex justify-center hover:bg-white duration-200">
+                  <button className="mx-auto text-cust-light-yellow border-cust-yellow border-2 rounded-md font-bold lg:mx-2 my-2 mb-12 md:mx-2 md:mb-2 flex justify-center hover:bg-white duration-200">
                     <img src="Call.png" alt="" className="w-10/12 my-auto" />
                   </button>
                 </Link>
