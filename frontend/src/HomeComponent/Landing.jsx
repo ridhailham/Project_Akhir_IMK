@@ -9,7 +9,7 @@ const Landing = () => {
       </div>
 
       <Parallax speed={10} className="top-10 ">
-        <div className="pt-[20%] pb-[14%] md:pt-[15vw] md:pb-[1vw] h-fit xl:mb-[-10vw] xl:pt-[11vw] w-full flex items-center justify-center">
+        <div className="pt-[20%] pb-[10%] md:pt-[15vw]  h-fit xl:mb-[-10vw] xl:pt-[11vw] w-full flex items-center justify-center">
           <img src="./Group2.png" alt="" className="" />
         </div>
       </Parallax>

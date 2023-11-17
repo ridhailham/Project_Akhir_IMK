@@ -1,7 +1,7 @@
 const GetToKnow = () => {
   return (
     <>
-      <img src="/rumput1.png" alt="" className=" h-[40%] w-[100%]" />
+      <img src="/rumput1.png" alt="" className=" h-[40%] w-[100%] md:h-auto" />
       <div
         className="h-[120%] w-full md:h-[100%] "
         style={{

@@ -11,7 +11,7 @@ const Home = () => {
     <>
       
       <Landing />
-      <Parallax translateY={[31 , -50]} className="h-screen ">
+      <Parallax translateY={[-8 , -50]} className="h-screen ">
         <GetToKnow />
         <Mascot />
         <Graffiti />
