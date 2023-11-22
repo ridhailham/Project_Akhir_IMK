@@ -43,13 +43,16 @@ const MobileProfileButton = ({ active }) => {
               isShown ? " w-fit h-fit top-[40%]" : "h-full w-full"
             } `
           : "w-[0px] h-[0px] md:w-[0px] md:h-[0px]"
-      } flex button-shadow bg-cust-dark-green hover:bg-cust-green rounded-full justify-center items-center duration-300 -z-10 flex-shrink-0 transition-all`}
+      } flex button-shadow bg-blue-900 hover:bg-cust-green rounded-full justify-center items-center duration-300 -z-10 flex-shrink-0 transition-all`}
     >
       {active && !isShown && (
         <BsPersonCircle className="text-2xl text-cust-yellow" />
       )}
       {isShown && userData && (
-        <ul className=" transition-all w-max button-shadow absolute right-0 top-[8vw] font-lato bg-cust-dark-green hover:bg-cust-green p-2 px-4 space-y-2 text-cust-yellow rounded-xl">
+        <ul className=" transition-all w-max button-shadow absolute right-0 top-[8vw] font-lato  p-2 px-4 space-y-2 bg-blue-900 text-cust-yellow rounded-xl">
+          <li className="text-4xl flex items-center gap-1 font-bold ">
+            TIKET {userData.lomba}
+          </li>
           <li className="flex items-center gap-1 font-black text-xl underline underline-offset-2">
             Hello,
             {userData.name.length > 20
@@ -57,11 +60,9 @@ const MobileProfileButton = ({ active }) => {
               : userData.name}
           </li>
           <li className="flex items-center gap-1 font-bold ">
-            {userData.lomba} <LuDumbbell className="text-lg" />
-          </li>
-          <li className="flex items-center gap-1 font-bold ">
-            Tim {userData.tim} <RiTeamFill className="text-lg" />
-          </li>
+              {userData.uuid}
+            </li>
+         
           {userData.status === "belum tervalidasi" ? (
             <li className="flex items-center gap-1 font-bold ">
               Belum diverifikasi <BsX className="text-2xl" />

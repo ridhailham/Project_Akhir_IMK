@@ -15,7 +15,7 @@ const Login = () => {
 
     setMsg("Tunggu sebentar.");
 
-    fetch("https://admin2.brawijayatournament.com/login", {
+    fetch("http://localhost:4000/login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -38,13 +38,13 @@ const Login = () => {
 
             setTimeout(() => {
               if (reply.lomba == "mobile legend") {
-                navigation("/mlbb");
+                navigation("/tari");
               } else if (reply.lomba == "basket") {
-                navigation("/basket");
+                navigation("/musik");
               } else if (reply.lomba == "silat") {
-                navigation("/silat");
+                navigation("/wayangkulit");
               } else if (reply.lomba == "pubg") {
-                navigation("/pubg");
+                navigation("/teater");
               }
               window.location.reload();
             }, 2000);

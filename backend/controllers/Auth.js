@@ -389,7 +389,7 @@ exports.Register = async (req, res) => {
   exports.RegisterBasket = async (req, res) => {
     const { name, email, password, confPassword, tim, wa, form_peserta, bukti_pembayaran } = req.body;
     const role = "user"
-    const lomba = "basket"
+    const lomba = "musik"
     
     
     
@@ -428,8 +428,7 @@ exports.Register = async (req, res) => {
     const hashPassword = await bcrypt.hash(password, 8)
 
 
-    // checkGmail(email)
-    sendConfirmationEmail(email)
+ 
 
     try {
       const user = await User.create({
@@ -463,7 +462,7 @@ exports.Register = async (req, res) => {
   exports.RegisterMobileLegend = async (req, res) => {
     const { name, email, password, confPassword, tim, wa, form_peserta, bukti_pembayaran } = req.body;
     const role = "user"
-    const lomba = "mobile legend"
+    const lomba = "tari"
     
 
     if (name == null || email == null || password == null || confPassword == null || role == null || form_peserta == null || bukti_pembayaran == null) {
@@ -520,7 +519,7 @@ exports.Register = async (req, res) => {
   exports.RegisterPubg = async (req, res) => {
     const { name, email, password, confPassword, tim, wa, form_peserta, bukti_pembayaran } = req.body;
     const role = "user"
-    const lomba = "pubg"
+    const lomba = "teater"
     
 
     if (name == null || email == null || password == null || confPassword == null || role == null || form_peserta == null || bukti_pembayaran == null) {
@@ -576,7 +575,7 @@ exports.Register = async (req, res) => {
   exports.RegisterSilat = async (req, res) => {
     const { name, email, password, confPassword, wa, form_peserta, bukti_pembayaran } = req.body;
     const role = "user"
-    const lomba = "silat"
+    const lomba = "wayang kulit"
     
     const tim = null
 

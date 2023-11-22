@@ -30,11 +30,14 @@ const DesktopProfileButton = () => {
     <button
       onClick={() => setIsShown(!isShown)}
       aria-label="navbar-button"
-      className={`hidden md:flex top-[10%] w-[50px] h-[50px] md:w-[60px] md:h-[60px] p-3  button-shadow bg-cust-dark-green hover:bg-cust-green rounded-full justify-center items-center duration-300 flex-shrink-0 transition-all`}
+      className={`hidden md:flex top-[10%] w-[50px] h-[50px] md:w-[60px] md:h-[60px] p-3  button-shadow bg-blue-900 hover:bg-blue-900 rounded-full justify-center items-center duration-300 flex-shrink-0 transition-all`}
     >
       <BsPersonCircle className="text-3xl text-cust-yellow" />
       {isShown && userData && (
-        <ul className=" transition-all w-max button-shadow absolute top-[8vh] font-lato bg-cust-dark-green hover:bg-cust-green p-2 px-4 space-y-2 text-cust-yellow rounded-xl">
+        <ul className=" transition-all w-max button-shadow absolute top-[8vh] font-lato bg-blue-900  p-2 px-4 space-y-2 text-cust-yellow rounded-xl mt-4">
+          <li className="text-4xl flex items-center gap-1 font-bold ">
+            TIKET {userData.lomba}
+          </li>
           <li className="flex items-center gap-1 font-black text-xl underline underline-offset-2">
             Hello,{" "}
             {userData.name.length > 20
@@ -42,11 +45,9 @@ const DesktopProfileButton = () => {
               : userData.name}
           </li>
           <li className="flex items-center gap-1 font-bold ">
-            {userData.lomba} <LuDumbbell className="text-lg" />
+            {userData.uuid}
           </li>
-          <li className="flex items-center gap-1 font-bold ">
-            Tim {userData.tim} <RiTeamFill className="text-lg" />
-          </li>
+       
           {userData.status === "belum tervalidasi" ? (
             <li className="flex items-center gap-1 font-bold ">
               Belum diverifikasi <BsX className="text-2xl" />
