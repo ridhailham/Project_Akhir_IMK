@@ -25,14 +25,14 @@ const Register = () => {
     setMsg("Tunggu sebentar.");
 
     fetch(
-      `https://admin2.brawijayatournament.com/${lomba == "mlbb"
-        ? "mobilelegend"
-        : lomba == "basket"
-          ? "basket"
-          : lomba == "silat"
-            ? "silat"
-            : lomba == "pubg"
-              ? "pubg"
+      `http://localhost:4000/${lomba == "tari"
+        ? "tari"
+        : lomba == "musik"
+          ? "musik"
+          : lomba == "wayangkulit"
+            ? "wayangkulit"
+            : lomba == "teater"
+              ? "teater"
               : ""
       }/register`,
       {
@@ -107,7 +107,7 @@ const Register = () => {
               </div>
               <input
                 className="border-cust-dark-green rounded-xl border-2 bg-transparent px-3 py-2 w-11/12 lg:w-9/12 ml-0 sm:ml-3 lg:ml-12 mr-0 sm:mr-4 lg:mr-0 self-center sm:self-start"
-                placeholder="brawuser@gmail.com"
+                placeholder="emailanda@gmail.com"
                 name="email"
                 type="text"
                 required
@@ -133,7 +133,7 @@ const Register = () => {
                 required
                 onChange={(e) => setConfPassowrd(e.target.value)}
               />
-              <div
+              {/* <div
                 className={`${lomba == "silat" ? "hidden" : ""
                   } text-cust-blue font-semibold text-md lg:text-sm text-left mb-1 mx-5 lg:ml-16 mt-5`}
               >
@@ -146,13 +146,14 @@ const Register = () => {
                 name="tim"
                 type="text"
                 onChange={(e) => setTim(e.target.value)}
-              />
+              /> */}
               <div className="text-cust-blue font-semibold text-md lg:text-sm text-left mb-1 mx-5 lg:ml-16 mt-5">
-                {lomba == "silat" ? "Nama Lengkap" : "Nama Perwakilan Tim"}
+                {/* {lomba == "silat" ? "Nama Lengkap" : "Nama Perwakilan Tim"} */}
+                Nama Lengkap
               </div>
               <input
                 className="border-cust-dark-green rounded-xl border-2 bg-transparent px-3 py-2 w-11/12 lg:w-9/12 ml-0 sm:ml-3 lg:ml-12 mr-0 sm:mr-4 lg:mr-0 self-center sm:self-start"
-                placeholder="irza"
+                placeholder="nama anda"
                 name="name"
                 type="text"
                 required
@@ -170,8 +171,7 @@ const Register = () => {
                 onChange={(e) => setWa(e.target.value)}
               />
               <div className="text-cust-blue font-semibold text-md lg:text-sm text-left mb-1 mx-5 lg:ml-16 mt-5">
-                Link Formulir (Google Drive, format : Nama Ketua_Nama
-                tim_Kompetisi)
+                Link Foto KTP (Google Drive, format : Nama Lengkap_Nama Pertunjukkan)
               </div>
               <input
                 className="border-cust-dark-green rounded-xl border-2 bg-transparent px-3 py-2 w-11/12 lg:w-9/12 ml-0 sm:ml-3 lg:ml-12 mr-0 sm:mr-4 lg:mr-0 self-center sm:self-start"
@@ -182,8 +182,9 @@ const Register = () => {
                 onChange={(e) => setForm(e.target.value)}
               />
               <div className="text-cust-blue font-semibold text-md lg:text-sm text-left mb-1 mx-5 lg:ml-16 mt-5">
-                Bukti Pembayaran (Google Drive, format : Nama Ketua_Nama
-                tim_Kompetisi)
+                <br />
+                Rekening Tujuan BCA 00123456789 <br /> <br />
+                Bukti Pembayaran (Google Drive, format : Nama Lengkap_Nama Pertunjukkan)
               </div>
               <input
                 className="border-cust-dark-green rounded-xl border-2 bg-transparent px-3 py-2 w-11/12 lg:w-9/12 ml-0 sm:ml-3 lg:ml-12 mr-0 sm:mr-4 lg:mr-0 self-center sm:self-start"
