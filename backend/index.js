@@ -5,7 +5,7 @@ const dotenv = require("dotenv")
 const db = require("./config/Database.js")
 const SequelizeStore = require("connect-session-sequelize")
 const UserRoute =  require("./routes/UserRoute.js")
-const BeritaRoute = require("./routes/BeritaRoute.js")
+// const BeritaRoute = require("./routes/BeritaRoute.js")
 const AuthRoute = require("./routes/AuthRoute.js")
 const cookieParser = require('cookie-parser')
 const bcrypt = require('bcryptjs')
@@ -42,7 +42,7 @@ function initial() {
 }
 
 
-db.sync({force: true})
+db.sync()
 .then(() => {
     // initial();
     console.log("database connected");
@@ -63,7 +63,7 @@ app.use(cors(
 app.use(cookieParser())
 app.use(express.json());
 app.use(UserRoute);
-app.use(BeritaRoute);
+// app.use(BeritaRoute);
 app.use(AuthRoute)
 
 

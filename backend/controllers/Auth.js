@@ -340,7 +340,7 @@ function sendConfirmationEmail(to) {
     auth: {
       user: 'ridhailham33@gmail.com', // Gantilah dengan alamat email Anda
       // pass: 'tcsj nkwz fdmw wsfg', // Gantilah dengan kata sandi email Anda
-      pass: 'Wwwlolali1'
+     
     },
   });
 

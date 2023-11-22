@@ -27,10 +27,10 @@ const { adminOnly } = require("../middleware/AuthUser.js");
 
 
 
-    router.post('/basket/register', RegisterBasket)
-    router.post('/mobilelegend/register', RegisterMobileLegend)
-    router.post('/pubg/register', RegisterPubg)
-    router.post('/silat/register', RegisterSilat)
+    router.post('/musik/register', RegisterBasket)
+    router.post('/tari/register', RegisterMobileLegend)
+    router.post('/teater/register', RegisterPubg)
+    router.post('/wayangkulit/register', RegisterSilat)
 
 
 
