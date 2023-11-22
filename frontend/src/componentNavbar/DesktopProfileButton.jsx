@@ -11,7 +11,7 @@ const DesktopProfileButton = () => {
   React.useEffect(() => {
     const token = getToken;
     const getUser = async () => {
-      const res = await fetch("https://admin2.brawijayatournament.com/me", {
+      const res = await fetch("http://localhost:4000/me", {
         method: "GET",
         headers: {
           Authorization: token,

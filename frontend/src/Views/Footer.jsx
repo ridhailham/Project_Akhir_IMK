@@ -70,7 +70,7 @@ const Footer = () => {
           </div>
           <div className="text-center">
             <p className="text-cust-yellow mb-3 sm:text-[15px] text-[70%]">
-              © 2023 <b>Indonesia Culture Exhibition 2023</b>. All rights reserved.
+              © 2023 <b>Local Culture Fest 2023</b>. All rights reserved.
             </p>
           </div>
         </div>

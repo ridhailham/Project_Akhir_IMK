@@ -11,12 +11,12 @@ const Home = () => {
     <>
       
       <Landing />
-      <Parallax translateY={[-8 , -50]} className="h-screen ">
+      <Parallax translateY={[10 , -120]} className="h-screen md:translate-y-[-16] lg:translate-y-[-100] mb-10">
         <GetToKnow />
         <Mascot />
         <Graffiti />
         {/* <TimeLine /> */}
-        <News />
+        {/* <News /> */}
         <Competition />
         <Footer />
       </Parallax>

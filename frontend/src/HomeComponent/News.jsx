@@ -7,7 +7,7 @@ const News = () => {
   const getNews = async () => {
     try {
       let response = await axios.get(
-        "https://admin2.brawijayatournament.com/berita"
+        "http://localhost:4000/berita"
       );
       console.log(response.data);
       setNews(response.data);
@@ -45,7 +45,7 @@ const News = () => {
                       }}
                     >
                       <img
-                        src={`https://admin2.brawijayatournament.com/${item.image}`}
+                        src={`http://localhost:4000/${item.image}`}
                         alt={item.name}
                         style={{
                           width: "100%",

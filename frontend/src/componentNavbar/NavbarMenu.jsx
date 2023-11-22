@@ -49,7 +49,7 @@ const NavbarMenu = ({ resetState }) => {
           <div className="flex gap-10">
             <a
               className="w-12 md:w-[72px] hover:scale-110 transition-all"
-              href="https://www.tiktok.com/@brawijayatournament"
+              href="https://www.tiktok.com/@tedxuniversitasbrawijaya"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -57,7 +57,7 @@ const NavbarMenu = ({ resetState }) => {
             </a>
             <a
               className="w-12 md:w-[72px] hover:scale-110 transition-all"
-              href="https://www.instagram.com/brawijayatournament/"
+              href="https://www.instagram.com/tedxuniversitasbrawijaya/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -85,19 +85,19 @@ const navlist = [
   // },
   {
     title: "MUSIK",
-    path: "/basket",
+    path: "/musik",
   },
   {
     title: "TARI",
-    path: "/mlbb",
+    path: "/tari",
   },
   {
     title: "TEATER",
-    path: "/pubg",
+    path: "/teater",
   },
   {
     title: "WAYANG KULIT",
-    path: "/silat",
+    path: "/wayangkulit",
   },
 
 ];

@@ -42,7 +42,7 @@ function initial() {
 }
 
 
-db.sync()
+db.sync({force: true})
 .then(() => {
     // initial();
     console.log("database connected");

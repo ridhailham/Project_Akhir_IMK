@@ -89,7 +89,7 @@ const Register = () => {
             }}
           >
             <div className="text-left mx-auto lg:text-5xl text-3xl w-9/12 text-cust-yellow font-bold h-fit my-auto lg:py-0 py-10">
-              Pendaftaran Akun Kompetisi {lomba.toUpperCase()}
+              Pembelian Tiket {lomba.toUpperCase()}
             </div>
           </div>
           <div className="lg:w-6/12 w-full">

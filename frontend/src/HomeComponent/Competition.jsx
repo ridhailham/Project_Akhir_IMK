@@ -14,7 +14,7 @@ const Competition = () => {
         </div>
         <div className="w-full md:flex md:flex-row">
           <div className="group hover:cursor-pointer md:w-3/12 w-9/12 px-5 py-5  bg-blue-gray-50 rounded-lg md:mx-5 mx-auto">
-            <Link to="/pubg">
+            <Link to="/teater">
               <div className="overflow-hidden mb-5 relative">
                 <img
                   src={teater}
@@ -33,7 +33,7 @@ const Competition = () => {
             </Link>
           </div>
           <div className="group hover:cursor-pointer md:w-3/12 w-9/12 px-5 py-5 bg-blue-gray-50 rounded-lg md:mr-5 mx-auto md:my-0 my-8">
-            <Link to="/basket">
+            <Link to="/musik">
               <div className="overflow-hidden mb-5 relative">
                 <img
                   src={musik}
@@ -53,7 +53,7 @@ const Competition = () => {
           </div>
 
           <div className="group hover:cursor-pointer md:w-3/12 w-9/12 px-5 py-5 bg-blue-gray-50 rounded-lg md:mx-0 mx-auto md:mb-0 mb-8">
-            <Link to="/mlbb">
+            <Link to="/tari">
               <div className="overflow-hidden mb-5 relative">
                 <img
                   src={tari}
@@ -73,7 +73,7 @@ const Competition = () => {
           </div>
 
           <div className="group hover:cursor-pointer md:w-3/12 w-9/12 px-5 py-5 bg-blue-gray-50 rounded-lg md:mx-5 mx-auto md:mb-0 mb-8">
-            <Link to="/silat">
+            <Link to="/wayangkulit">
               <div className="overflow-hidden mb-5 relative">
                 <img
                   src={wayangKulit}
