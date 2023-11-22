@@ -328,50 +328,6 @@ exports.logOut = async(req, res) => {
 }
 
 
-// Fungsi untuk mengirim email konfirmasi
-function sendConfirmationEmail(to) {
-  if (!to) {
-    console.log('Alamat email penerima tidak ditemukan');
-    return; // Menghentikan eksekusi kode jika penerima email tidak ditemukan
-  }
-
-  const transporter = nodemailer.createTransport({
-    service: 'Gmail',
-    auth: {
-      user: 'ridhailham33@gmail.com', // Gantilah dengan alamat email Anda
-      // pass: 'tcsj nkwz fdmw wsfg', // Gantilah dengan kata sandi email Anda
-     
-    },
-  });
-
-  const mailOptions = {
-    from: 'ridhailham33@gmail.com', // Gantilah dengan alamat email Anda
-    to: to,
-    subject: 'Konfirmasi Registrasi',
-    text: `Terima kasih telah mendaftar Brawijaya Tournament! Silakan konfirmasi alamat email Anda `,
-  };
-
-  transporter.sendMail(mailOptions, function (error, info) {
-    if (error) {
-      console.log('Gagal mengirim email konfirmasi: ' + error);
-      res.status(400).json({
-        message: "Email tidak berhasil terkirim"
-      });
-    } else {
-      console.log('Email konfirmasi terkirim: ' + info.response);
-      // Email berhasil terkirim, Anda dapat menambahkan tindakan sukses di sini
-    }
-  });
-
-  transporter.on('idle', function () {
-    transporter.close();
-  });
-
-  transporter.on('error', function (err) {
-    console.error('Terjadi kesalahan pada transporter:', err);
-  });
-}
-
 
 
 
