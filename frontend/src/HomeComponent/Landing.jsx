@@ -5,7 +5,7 @@ const Landing = () => {
   return (
     <>
       <div className="absolute top-0 h-fit w-full flex items-center justify-center">
-        <video  src={videoBg} autoPlay loop muted ></video>
+        <video  src={videoB} autoPlay loop muted ></video>
       </div>
 
       <Parallax speed={10} className="top-10">

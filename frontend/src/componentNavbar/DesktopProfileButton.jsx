@@ -44,6 +44,9 @@ const DesktopProfileButton = () => {
               ? userData.name.slice(0, 20) + "..."
               : userData.name}
           </li>
+          <li className="flex items-center gap-1 font-bold">
+              Kode Tiket
+            </li>
           <li className="flex items-center gap-1 font-bold ">
             {userData.uuid}
           </li>

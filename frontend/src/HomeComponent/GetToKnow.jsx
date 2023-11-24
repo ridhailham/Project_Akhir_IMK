@@ -3,7 +3,7 @@ const GetToKnow = () => {
     <>
       <img src="/rumput1.png" alt="" className="mt-11 h-[20%] w-[100%] md:h-[40%]" />
       <div
-        className="h-[120%] w-full md:h-[100%] "
+        className="h-[80%] w-full md:h-[100%] "
         style={{
           backgroundImage: "url(./NavMenu.svg)",
           // backgroundSize: "100vh",
