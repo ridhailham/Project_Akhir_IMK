@@ -369,7 +369,7 @@ exports.Register = async (req, res) => {
 
     const hashPassword = await bcrypt.hash(password, 8)
 
-    transporter.sendMail
+  
 
     try {
       User.create({
